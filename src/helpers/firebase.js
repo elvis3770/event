@@ -6,13 +6,13 @@ import {collection, getFirestore, setDoc} from 'firebase/firestore'
 import { doc, getDoc } from "firebase/firestore";
 
 const firebaseConfig = {
- apiKey: "XXXXXXXXXXXX",
- authDomain: "XXXXXXXXXXXX",
- projectId: "XXXXXXXXXXXX",
- storageBucket: "XXXXXXXXXXXX",
- messagingSenderId: "XXXXXXXXXXXX",
- appId: "XXXXXXXXXXXX",
- measurementId: "XXXXXXXXXXXX"
+ apiKey: "AIzaSyB0da6Q0ehkip2AgPan88xqHutfTEXcgfk",
+ authDomain: "selfieventos-4862b.firebaseapp.com",
+ projectId: "selfieventos-4862b",
+ storageBucket: "selfieventos-4862b.firebasestorage.app",
+ messagingSenderId: "672481557401",
+ appId: "1:672481557401:web:0de21d118142273d287108",
+ measurementId: "G-1NS9C1X5YG"
 };
 
 export const getEventData = async (eventId) => {
